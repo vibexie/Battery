@@ -1,6 +1,4 @@
-### CircularSeekbar for Android
-
-In this library, i did not use attr to set some values, because i do not know the effect that you want. so, you need to modify a little to meet the requirements. if you do not how to modify, issue please!
+### Simple BatteryView for Android
  
 ![](http://qiniu.vibexie.com/github/battery.gif)
 
@@ -19,3 +17,18 @@ Step 2. Add the dependency
 ``` xml
 compile 'com.github.vibexie:Battery:v1.0'
 ```
+
+Step 3. Use like this
+``` xml
+<com.vibexie.batterylib.BatteryView
+        android:id="@+id/bv"
+        android:layout_width="100dp"
+        android:layout_height="200dp"
+        mv:shellWidth="10dp"
+        mv:shellColor="#5C5C5C"
+        mv:powerColor="#5CACEE"
+        mv:amountColor="#EE4000"
+        mv:amountTextSize="20sp"
+        android:layout_centerInParent="true"/>
+```
+Then use setmPowerAmount(int Amount) method.
