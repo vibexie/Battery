@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="BatteryView">
+        <attr name="shellWidth" format="dimension"></attr>
+        <attr name="shellColor" format="color"></attr>
+        <attr name="powerColor" format="color"></attr>
+        <attr name="amountColor" format="color"></attr>
+        <attr name="amountTextSize" format="dimension"></attr>
+    </declare-styleable>
+</resources>
